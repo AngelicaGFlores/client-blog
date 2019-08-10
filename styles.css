@@ -1,9 +1,60 @@
 /* how to link the html to css? */
 /* done in the html */
 
-
-
 body{
     /*  saving this color i liked from adobe background-color:#BFA893; */
+    background-color: #BFA893;
+
 
 }
+/*trying to set up the content-lander classs to have some space and margin*/
+.content-lander{
+    padding: 2px 2px 2px 2px;
+    margin: 4px 6px 4px 6px;
+    border: dotted;
+}
+
+/*header organization*/
+header {
+    background-image: inherit;
+    margin-left: 4px;
+    margin-right: 4px;
+    
+}
+
+header h1{
+    color: white;
+
+
+}
+
+/*organizing the buttons*/
+
+header p {
+    display:flex;
+    justify-content:space-between;
+   
+}
+header p .buy-button{
+    display: flex;
+    justify-content: center;
+    and align-items: center;
+    margin: auto;
+    padding: 5%;
+    
+    /* going to need to replace this with images*/
+    border: solid;
+    border-color: black;
+}
+header p .in-cart-button {
+    display: flex;
+    justify-content: center;
+    and align-items: center;
+    padding: 5%;
+    margin: auto;
+    /* going to need to replace this with images*/
+    border: solid;
+    border-color: black;
+
+}/*END of buttons*/
+

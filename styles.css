@@ -12,19 +12,35 @@ body{
     padding: 2px 2px 2px 2px;
     margin: 4px 6px 4px 6px;
     border: dotted;
+
+    position: relative;
+    text-align: center;
+    color: white;
+    
 }
 
 /*header organization*/
 header {
-    background-image: inherit;
+    
     margin-left: 4px;
     margin-right: 4px;
+    padding: 2px;
+    border: 4px;
+
     
 }
 
-header h1{
-    color: white;
 
+header h1{
+    
+    color: white;
+    /* margin: 0%; */
+    text-align: center;
+    /* background-image: inherit; */
+   
+    
+    
+    
 
 }
 
@@ -38,7 +54,7 @@ header p {
 header p .buy-button{
     display: flex;
     justify-content: center;
-    and align-items: center;
+    align-items: center;
     margin: auto;
     padding: 5%;
     

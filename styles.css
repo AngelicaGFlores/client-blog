@@ -4,28 +4,33 @@
 body{
     /*  saving this color i liked from adobe background-color:#BFA893; */
     background-color: #BFA893;
+    font-family: 'Lora', serif;
+    
 
 
 }
+
 /*trying to set up the content-lander classs to have some space and margin*/
 .content-lander{
     padding: 2px 2px 2px 2px;
     margin: 4px 6px 4px 6px;
     border: dotted;
 
-    position: relative;
+    /* position: relative; */
     text-align: center;
     color: white;
     
 }
 
-/*header organization*/
+/*HEADER*/
 header {
     
     margin-left: 4px;
     margin-right: 4px;
     padding: 2px;
     border: 4px;
+    background: url(images/candles-764779_640.jpg) no-repeat center center;
+    height: 200px;
 
     
 }
@@ -44,33 +49,32 @@ header h1{
 
 }
 
-/*organizing the buttons*/
-
-header p {
-    display:flex;
-    justify-content:space-between;
-   
-}
+/*TWO BUTTONS*/
 header p .buy-button{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    
     margin: auto;
     padding: 5%;
+    display: inline-block;
     
-    /* going to need to replace this with images*/
+    
     border: solid;
     border-color: black;
 }
 header p .in-cart-button {
-    display: flex;
-    justify-content: center;
-    and align-items: center;
+
     padding: 5%;
     margin: auto;
-    /* going to need to replace this with images*/
+    
     border: solid;
     border-color: black;
+    display: inline-block;
 
 }/*END of buttons*/
+
+.price-range-section{
+    
+}
 

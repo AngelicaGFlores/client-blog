@@ -3,6 +3,10 @@
     <title>Candles</title>
     <!-- how to link css with html -->
     <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- TWO FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Quicksand&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -10,12 +14,16 @@
    <!-- added a content-lander to keep track of this content above the background image and use aborder line dot for fun in the future -->
     <div class = "content-lander">
         <!-- this will have the image and header -->
+
         <header>
              <!-- NOTE: not sure if i should use the image here or in style.css? should I try to get it resized in the affinity?-->
-            <img src= "images/candles-764779_640.jpg" alt = "four thin lit up candles horizontally in a row" > 
+             
+            <!-- <img src= "images/candles-764779_640.jpg" alt = "four thin lit up candles horizontally in a row" >  -->
             <h1>
                 The Queen of Candles
             </h1>
+
+            <!--TWO BUTTONS-->
             <!-- inserting two buttons based on example NOTE: maybe add this p to a div in the future if you have to, also fix the href for both buttons later? -->
             <p>
                 <a class = "buy-button" href= "index.html">Buy</a>
@@ -23,14 +31,34 @@
                 
             </p>
         </header>
-        <!--END of header in body-->
         
-        <!--Note:the three content will be flexed horizontally in the center of the page so use CSS{ justify-content: center; and align-items: center; } -->     
+        
+        <!--Note:the three content will be flexed horizontally in the center of the page so use CSS{ justify-content: center; and align-items: center; } -->   
+
+        <!-- TWO IMAGES, TWO FONTS -->
+
         <div class="price-range-section">
-            <div class="deal-one-item">Item 1</div>
-            <div class="deal-two-item">Item 2</div>
-            <div class="deal-three-item">Item 3</div>
-        </div> <!-- END of price-range-section class-->
+            <div class="deal-one-item">Item 1
+                <img src = "images/candle-2590837_640.jpg" alt="candles">
+                <h2>head title</h2>
+                <p>lorem ipsum small paragraph Nam non diam vitae purus venenatis volutpat. Nulla malesuada, augue nec semper placerat, tortor arcu ullamcorper justo, sed imperdiet est leo a neque. Proin vitae enim vitae lectus gravida bibendum congue vel nibh. Nulla facilisi. Ut lobortis mi tellus, a porttitor metus fringilla non. Ut eu diam vitae ligula blandit posuere. Phasellus velit lectus, eleifend eu ex nec, molestie porttitor urna.</p>
+            </div>
+            <div class="deal-two-item">Item 2
+                <img src= "images/candles-2993936_640.jpg" alt= "sugar brown candles">
+                <h2>head title</h2>
+                <p>lorem ipsum small paragrach Nam non diam vitae purus venenatis volutpat. Nulla malesuada, augue nec semper placerat, tortor arcu ullamcorper justo, sed imperdiet est leo a neque. Proin vitae enim vitae lectus gravida bibendum congue vel nibh. Nulla facilisi. Ut lobortis mi tellus, a porttitor metus fringilla non. Ut eu diam vitae ligula blandit posuere. Phasellus velit lectus, eleifend eu ex nec, molestie porttitor urna.</p>
+            </div>
+            <!-- <div class="deal-three-item">Item 3
+                <img>
+                <h4>head title</h4>
+                <p>lorem ipsum</p>
+            </div> -->
+        </div> 
+
+        <section>
+            <h4>Services</h4>
+            <p>lorem ipsum pareargah centered Donec convallis diam vel facilisis congue. Praesent rutrum, magna in gravida rutrum, massa felis elementum quam, vel condimentum leo neque eget urna. Sed sit amet rhoncus lacus. In laoreet dapibus orci, eu venenatis ante vestibulum nec. Vivamus quis laoreet enim, nec venenatis arcu. Maecenas ultricies ante iaculis convallis rutrum. Cras mollis vel elit quis pretium. Mauris sed tortor faucibus, semper orci elementum, finibus mauris. Nam a ligula ac est pulvinar convallis quis in felis. Donec molestie metus ut tempor bibendum. Suspendisse ac hendrerit sapien. Ut sagittis luctus augue, at condimentum ipsum aliquet a.</p>
+        </section>
 
     </div><!--End of content-lander-->
 
@@ -39,6 +67,7 @@
 <!-- NOTE: i plan ti make this footer transparent wiht some opacity but have a center text for @copyright  ALSO: not sure if the footer should go her or in the body to design in Css? -->
 
 <footer>
+    <p>@copyright!</p>
 
 </footer>
 

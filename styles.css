@@ -31,6 +31,7 @@ header {
     border: 4px;
     background: url(images/candles-764779_640.jpg) no-repeat center center;
     height: 200px;
+    
 
     
 }
@@ -56,25 +57,28 @@ header p .buy-button{
     align-items: center; */
     
     margin: auto;
-    padding: 5%;
+    padding: 1%;
     display: inline-block;
     
-    
+    color: red;
     border: solid;
     border-color: black;
 }
 header p .in-cart-button {
 
-    padding: 5%;
+    padding: 1%;
     margin: auto;
     
     border: solid;
+    color: red;
     border-color: black;
     display: inline-block;
 
 }/*END of buttons*/
 
 .price-range-section{
-    
+    padding: 5px;
+    margin: 2px, 4px, 2px, 4px;
+
 }
 
